@@ -24,3 +24,6 @@
 ## Mongodb atlas setup
 - database > connect > connect your application > copy connection string
 - ```sh npm install mongoose```
+
+## Hashing passwords
+- install bcrypt package: `npm i bcrypt`
