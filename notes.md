@@ -27,3 +27,11 @@
 
 ## Hashing passwords
 - install bcrypt package: `npm i bcrypt`
+
+## Email & password validation
+- install validator package: `npm i validator`
+
+## JSON Web Tokens (theory)
+- header -> contains algorithm used for JWT
+- payload -> contains non-sensitive user data (eg. userId)
+- signature -> used to verify authenticity of token by the server
