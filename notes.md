@@ -35,3 +35,6 @@
 - header -> contains algorithm used for JWT
 - payload -> contains non-sensitive user data (eg. userId)
 - signature -> used to verify authenticity of token by the server
+
+# JWT
+- install jwt package: `npm i jsonwebtoken`
