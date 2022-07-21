@@ -15,6 +15,10 @@ const workoutSchema = new Schema({
     type: Number,
     required: true,
   },
+  user_id: {
+    type: String,
+    required: true,
+  },
 }, { timestamps: true }) // timestamps auto create created_at & updated_at
 
 // plural, will create Workouts collection
